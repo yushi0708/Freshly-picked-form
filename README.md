@@ -1,7 +1,7 @@
 # お問い合わせフォーム
 ## 環境構築
 ### Dockerビルド
-1. git clone git@github.com:yushi0708/contact-form-test.git
+1. git clone git@github.com:yushi0708/Freshly-picked-form.git
 2. docker-compose up -d build
 
 ※ MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせてdocker-compose.ymlファイルを編集して下さい。
