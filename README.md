@@ -15,7 +15,7 @@
 6. pht artisan db:seed
 
 ## ER図
-
+添付の　FRESHLY-PICKED-FORM.drawio.png　を参照して下さい。
    
 ## 使用技術
 ・Laravel Framework 8.83.8
