@@ -1,0 +1,334 @@
+body {
+    width: 1512px;
+    height: 983px;
+    top: 1153px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+}
+
+.header {
+    width: 1512px;
+    height: 53px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #F4F4F4
+}
+
+.header__inner {
+    width: 132px;
+    height: 33px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header__logo {
+    font-family: jsMath-cmti10;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 32.73px;
+    text-align: left;
+    color: #F5C800;
+}
+
+main {
+    width: 1512px;
+    height: 930px;
+    padding: 70px 376px 70px 376px;
+    gap: 40px;
+    opacity: 0px;
+    background: #F8F8F8;
+}
+
+.product__content {
+
+}
+
+.product__heading {
+    width: 128px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.product__heading--text {
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #333333;
+}
+
+.product__register-form {
+    position: relative;
+    width: 760px;
+    height: 702px;
+    gap: 30px;
+    opacity: 0px;
+}
+.product__register--product-name {
+    width: 760px;
+    height: 77px;
+    gap: 10px;
+    opacity: 0px;
+}
+.product__register--input-name-title {
+    width: 92px;
+    height: 24px;
+    gap: 10px;
+    opacity: 0px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+}
+.product__required {
+    display: inline-block;
+    width: 34px;
+    height: 18px;
+    padding: 0px 5px 0px 5px;
+    gap: 10px;
+    opacity: 0px;
+    background: #FD0707;
+    margin-left: 8px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.product__register--product-name input {
+    width: 760px;
+    height: 43px;
+    gap: 10px;
+    opacity: 0px;
+    padding: 11px 10px 11px 10px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #E0DFDE;
+}
+
+.product__register--product-price {
+    width: 760px;
+    height: 77px;
+    gap: 10px;
+    opacity: 0px;
+}
+.product__register--input-price-title {
+    width: 76px;
+    height: 24px;
+    gap: 10px;
+    opacity: 0px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+}
+.product__register--product-price input {
+    width: 760px;
+    height: 43px;
+    gap: 10px;
+    opacity: 0px;
+    padding: 11px 10px 11px 10px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #E0DFDE;
+}
+
+.product__register--product-img {
+    width: 118px;
+    height: 77px;
+    gap: 10px;
+    opacity: 0px;
+}
+.product__register--input-img-title {
+    width: 108px;
+    height: 24px;
+    gap: 10px;
+    opacity: 0px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+}
+.product__select-file {
+    width: 118px;
+    height: 43px;
+    gap: 10px;
+    opacity: 0px;
+}
+.product__select-file--button {
+    width: 118px;
+    height: 31px;
+    padding: 5px 10px 5px 10px;
+    gap: 10px;
+    border: 1px;
+    opacity: 0px;
+    background: #E0DFDE;
+    border: 1px solid #4B4B4B;
+}
+.product__select-file--button-text {
+    display: inline-block;
+    width: 98px;
+    height: 21px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #4B4B4B;
+}
+
+.product__season-select {
+    display: flex;
+    justify-content: space-between;
+}
+.product__register--product-season {
+    width: 314px;
+    height: 77px;
+    gap: 10px;
+    opacity: 0px;
+}
+.product__register--input-season-title {
+    width: 146px;
+    height: 24px;
+    gap: 10px;
+    opacity: 0px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+}
+.product__multiple {
+    width: 60px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #FD0707;
+}
+
+.product__register--product-description {
+    width: 760px;
+    height: 194px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.product__register--input-description-title {
+    width: 108px;
+    height: 24px;
+    gap: 10px;
+    opacity: 0px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+}
+.product__register--product-description textarea {
+    width: 760px;
+    height: 160px;
+    padding: 11px 10px 11px 10px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #E0DFDE;
+}
+
+.product__register--button {
+    position: absolute;
+    bottom: 10px;
+    width: 760px;
+    height: 50px;
+    gap: 20px;
+    opacity: 0px;
+    text-align: center;
+}
+.product__register--button-return,
+.product__register--button-registered {
+    width: 200px;
+    height: 50px;
+    padding: 13px 10px 13px 10px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+}
+.product__register--button-return {
+    background: #E0DFDE;
+}
+.product__register--button-registered {
+    background: #F5C800;
+}
+.product__register--button-return-text,
+.product__register--button-registered-text {
+    width: 32px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+}

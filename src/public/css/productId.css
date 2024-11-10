@@ -1,0 +1,319 @@
+body {
+    width: 1512px;
+    height: 982px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F8F8F8;
+}
+
+.header {
+    display: grid;
+    width: 1512px;
+    height: 53px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #F4F4F4
+}
+
+.header__inner {
+    width: 132px;
+    height: 33px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header__logo {
+    font-family: jsMath-cmti10;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 32.73px;
+    text-align: left;
+    color: #F5C800;
+}
+
+main {
+    display: grid;
+    width: 1512px;
+    height: 797px;
+    padding: 70px 356px 70px 356px;
+    gap: 30px;
+    opacity: 0px;
+    background: #F8F8F8;
+}
+
+.products__productId-form {
+    display: grid;
+    width:800px;
+    height: 353px;
+    gap: 10px;
+    opacity: 0px;
+    justify-content: center;
+}
+.products__productId-form-title,
+.products__productId-form-title--text {
+    width: 200px;
+    height: 21px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+}
+.products__productId-form-title--text {
+    color: #4B4B4B;
+}
+.products__productId-form-title {
+    color: #0085FF;
+}
+
+.products__productId-input-information {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 322px;
+    gap: 30px;
+    opacity: 0px;
+}
+
+.products__productId-input-information--img {
+    display: grid;
+    width: 374px;
+    height: 322px;
+    gap: 10px;
+    opacity: 0px;
+}
+.products__productId-input-information--img img {
+    width: 374px;
+    height: 281px;
+    gap: 0px;
+    opacity: 0px;
+}
+.product__select-file {
+    display: flex;
+    align-items: center;
+    width: 225px;
+    height: 31px;
+    gap: 10px;
+    opacity: 0px;
+}
+.product__select-file--button {
+    display: grid;
+    width: 118px;
+    height: 31px;
+    padding: 5px 10px 5px 10px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #E0DFDE;
+    border: 1px solid #4B4B4B;
+}
+
+.products__productId-input-information--detail {
+    position: relative;
+    width: 396px;
+    height: 291px;
+    gap: 30px;
+    opacity: 0px;
+}
+.products__productId--input-name {
+    width: 396px;
+    height: 77px;
+    gap: 10px;
+    opacity: 0px;
+}
+.products__productId--input-name-title {
+    width: 48px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+}
+.products__productId--input-name-title,
+.products__productId--input-price-title,
+.product__productId--input-season-title,
+.product__productId--input-description-title,
+.product__season-select label {
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+}
+.products__productId--input-name input,
+.products__productId--input-price input {
+    display: flex;
+    width: 396px;
+    height: 43px;
+    padding: 11px 10px 11px 10px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #4B4B4B;
+}
+
+.products__productId--input-price {
+    width: 396px;
+    height: 77px;
+    gap: 10px;
+    opacity: 0px;
+}
+.products__productId--input-price-title,
+.product__productId--input-season-title {
+    width: 32px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.product__productId--input-season {
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    width: 314px;
+    height: 77px;
+    gap: 10px;
+    opacity: 0px;
+}
+.product__season-select {
+    display: flex;
+    justify-content: space-between;
+    width: 314px;
+    height: 43px;
+    padding: 4.5px 0px 4.5px 0px;
+    gap: 50px;
+    opacity: 0px;
+}
+.product__season-select li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.product__season-select li label {
+    display: flex;
+    position: relative;
+    width: 41px;
+    height: 34px;
+    padding: 5px 0px 5px 0px;
+    gap: 5px;
+    opacity: 0px;
+}
+.product__season-select li input {
+    width: 20px;
+    height: 20px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #4B4B4B;
+}
+
+.product__productId--product-description {
+    display: grid;
+    width: 800px;
+    height: 194px;
+    gap: 10px;
+    opacity: 0px;
+}
+.product__productId--input-description-title {
+    width: 64px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+}
+.product__productId--product-description textarea {
+    display: flex;
+    width: 760px;
+    height: 160px;
+    padding: 11px 10px 11px 10px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E0DFDE;
+
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #4B4B4B;
+}
+
+.product__productId--button {
+    justify-content: end;
+    margin-top: 50px;
+    display: flex;
+    width: 800px;
+    height: 50px;
+    gap: 20px;
+    opacity: 0px;
+}
+.product__productId--button-return,
+.product__productId--button-keep {
+    width: 200px;
+    height: 50px;
+    padding: 13px 10px 13px 10px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+}
+.product__productId--button-return {
+    background: #E0DFDE;
+}
+.product__productId--button-return-text {
+    width: 32px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+}
+.product__productId--button-return-text,
+.product__productId--button-keep-text {
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #4B4B4B;
+}
+.product__productId--button-keep {
+    background: #F5C800;
+    margin-right: 145px;
+}
+
+.product__productId--button-keep-text {
+    width: 80px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+}
+.product__productId--button-delete {
+    width: 50px;
+    height: 50px;
+    padding: 9px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+}
+.product__productId--button-delete img {
+    width: 32px;
+    height: 32px;
+    padding: 5.33px 6.67px 4px 5.33px;
+    gap: 0px;
+    opacity: 0px;
+}
